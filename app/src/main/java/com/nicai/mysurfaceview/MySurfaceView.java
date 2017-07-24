@@ -61,6 +61,7 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
 //        抗锯齿
 //        paint.setAntiAlias(true);
         paint.setColor(Color.GREEN);
+//        画一个圆形
         canvas.drawCircle(100, 100, 30, paint);
 
         surfaceHolder.unlockCanvasAndPost(canvas);
