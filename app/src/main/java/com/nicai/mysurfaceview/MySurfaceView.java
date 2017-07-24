@@ -66,6 +66,7 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
 //啦啦啦
 //        哈哈哈
 //        嘿嘿嘿123
+//        嘿嘿456
         surfaceHolder.unlockCanvasAndPost(canvas);
     }
 }
