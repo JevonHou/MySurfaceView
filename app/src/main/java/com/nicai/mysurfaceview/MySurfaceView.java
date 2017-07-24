@@ -65,6 +65,7 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
         canvas.drawCircle(100, 100, 30, paint);
 //啦啦啦
 //        哈哈哈
+//        嘿嘿嘿
         surfaceHolder.unlockCanvasAndPost(canvas);
     }
 }
