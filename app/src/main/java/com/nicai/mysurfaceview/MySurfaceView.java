@@ -58,7 +58,8 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
         Canvas canvas = surfaceHolder.lockCanvas();
 
         Paint paint = new Paint();
-        paint.setAntiAlias(true);
+//        抗锯齿
+//        paint.setAntiAlias(true);
         paint.setColor(Color.GREEN);
         canvas.drawCircle(100, 100, 30, paint);
 
